@@ -31,7 +31,7 @@ class ActivitySelectionViewController: UIViewController {
     
     @IBAction func walkButton(sender: AnyObject) {
         workoutType = WorkoutType.Walk
-        performSegueWithIdentifier("toWorkout", sender: self)
+        performSegueWithIdentifier("toWalk", sender: self)
     }
     
     @IBAction func runButton(sender: AnyObject) {
@@ -49,7 +49,11 @@ class ActivitySelectionViewController: UIViewController {
         if (segue.identifier == "toCharityDetail") {
             let destinationViewController = segue.destinationViewController as! CharityDetailViewController
             destinationViewController.charity = charity
-        } else {
+        }
+        if(segue.identifier == "toWalk"){
+            let destinationViewController = segue.destinationViewController as! Walk
+        }
+        else {
             let destinationViewController = segue.destinationViewController as! WorkoutViewController
             destinationViewController.charity = charity
             destinationViewController.workoutType = workoutType
