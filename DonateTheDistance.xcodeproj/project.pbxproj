@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670305051CC2DB9D00F0D356 /* Charity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670305041CC2DB9D00F0D356 /* Charity.swift */; };
+		670305071CC42B7800F0D356 /* WorkoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670305061CC42B7800F0D356 /* WorkoutType.swift */; };
+		670305091CC7ED7500F0D356 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670305081CC7ED7500F0D356 /* ProfileTableViewCell.swift */; };
+		6703050E1CCA5E2F00F0D356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6703050C1CCA5E2F00F0D356 /* Main.storyboard */; };
+		670305121CCAF62800F0D356 /* DonateTheDistance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6703050F1CCAF62800F0D356 /* DonateTheDistance.xcdatamodeld */; };
+		670305151CCBD69B00F0D356 /* DonationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670305141CCBD69B00F0D356 /* DonationData.swift */; };
+		670305171CCBF9E700F0D356 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670305161CCBF9E700F0D356 /* Run.swift */; };
+		674DB2F61C5C0270007A9982 /* CharityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DB2F51C5C0270007A9982 /* CharityDetailViewController.swift */; };
+		674DB2F81C5FDC16007A9982 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DB2F71C5FDC16007A9982 /* WorkoutViewController.swift */; };
+		674DB2FA1C5FDCAD007A9982 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DB2F91C5FDCAD007A9982 /* ProfilePageViewController.swift */; };
+		674DB2FC1C5FDCD6007A9982 /* WorkoutResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DB2FB1C5FDCD6007A9982 /* WorkoutResultsViewController.swift */; };
+		674DB2FE1C5FDD03007A9982 /* SponsorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DB2FD1C5FDD03007A9982 /* SponsorViewController.swift */; };
+		674DB3001C601BE8007A9982 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DB2FF1C601BE8007A9982 /* RegistrationViewController.swift */; };
+		674DB3021C627D84007A9982 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DB3011C627D83007A9982 /* UserData.swift */; };
+		67652FC41CB5FDF6000274CA /* MulticolorPolylineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67652FC31CB5FDF6000274CA /* MulticolorPolylineSegment.swift */; };
+		C672ED381C2645DB00E505AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED371C2645DB00E505AA /* AppDelegate.swift */; };
+		C672ED3F1C2645DB00E505AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C672ED3E1C2645DB00E505AA /* Assets.xcassets */; };
+		C672ED421C2645DB00E505AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C672ED401C2645DB00E505AA /* LaunchScreen.storyboard */; };
+		C672ED4D1C2645DB00E505AA /* DonateTheDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED4C1C2645DB00E505AA /* DonateTheDistanceTests.swift */; };
+		C672ED581C2645DB00E505AA /* DonateTheDistanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED571C2645DB00E505AA /* DonateTheDistanceUITests.swift */; };
+		C672ED661C2647DB00E505AA /* CharitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED651C2647DB00E505AA /* CharitySelectionViewController.swift */; };
+		C672ED681C28A10100E505AA /* CharityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED671C28A10100E505AA /* CharityTableViewCell.swift */; };
+		C672ED6A1C28CDD000E505AA /* ActivitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C672ED491C2645DB00E505AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C672ED2C1C2645DA00E505AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C672ED331C2645DA00E505AA;
+			remoteInfo = DonateTheDistance;
+		};
+		C672ED541C2645DB00E505AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C672ED2C1C2645DA00E505AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C672ED331C2645DA00E505AA;
+			remoteInfo = DonateTheDistance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		670305041CC2DB9D00F0D356 /* Charity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charity.swift; sourceTree = "<group>"; };
+		670305061CC42B7800F0D356 /* WorkoutType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutType.swift; sourceTree = "<group>"; };
+		670305081CC7ED7500F0D356 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		6703050D1CCA5E2F00F0D356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		670305101CCAF62800F0D356 /* DonateTheDistance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DonateTheDistance.xcdatamodel; sourceTree = "<group>"; };
+		670305111CCAF62800F0D356 /* MoonRunner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoonRunner.xcdatamodel; sourceTree = "<group>"; };
+		670305131CCAF74A00F0D356 /* DonateTheDistance 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DonateTheDistance 2.xcdatamodel"; sourceTree = "<group>"; };
+		670305141CCBD69B00F0D356 /* DonationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationData.swift; sourceTree = "<group>"; };
+		670305161CCBF9E700F0D356 /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		674DB2F51C5C0270007A9982 /* CharityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharityDetailViewController.swift; sourceTree = "<group>"; };
+		674DB2F71C5FDC16007A9982 /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		674DB2F91C5FDCAD007A9982 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		674DB2FB1C5FDCD6007A9982 /* WorkoutResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutResultsViewController.swift; sourceTree = "<group>"; };
+		674DB2FD1C5FDD03007A9982 /* SponsorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorViewController.swift; sourceTree = "<group>"; };
+		674DB2FF1C601BE8007A9982 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		674DB3011C627D83007A9982 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		67652FC31CB5FDF6000274CA /* MulticolorPolylineSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticolorPolylineSegment.swift; sourceTree = "<group>"; };
+		C672ED341C2645DA00E505AA /* DonateTheDistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonateTheDistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C672ED371C2645DB00E505AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C672ED3E1C2645DB00E505AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C672ED411C2645DB00E505AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C672ED431C2645DB00E505AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C672ED481C2645DB00E505AA /* DonateTheDistanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonateTheDistanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C672ED4C1C2645DB00E505AA /* DonateTheDistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateTheDistanceTests.swift; sourceTree = "<group>"; };
+		C672ED4E1C2645DB00E505AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C672ED531C2645DB00E505AA /* DonateTheDistanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonateTheDistanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C672ED571C2645DB00E505AA /* DonateTheDistanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateTheDistanceUITests.swift; sourceTree = "<group>"; };
+		C672ED591C2645DC00E505AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C672ED651C2647DB00E505AA /* CharitySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharitySelectionViewController.swift; sourceTree = "<group>"; };
+		C672ED671C28A10100E505AA /* CharityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharityTableViewCell.swift; sourceTree = "<group>"; };
+		C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitySelectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C672ED311C2645DA00E505AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C672ED451C2645DB00E505AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C672ED501C2645DB00E505AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C672ED2B1C2645DA00E505AA = {
+			isa = PBXGroup;
+			children = (
+				C672ED361C2645DA00E505AA /* DonateTheDistance */,
+				C672ED4B1C2645DB00E505AA /* DonateTheDistanceTests */,
+				C672ED561C2645DB00E505AA /* DonateTheDistanceUITests */,
+				C672ED351C2645DA00E505AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C672ED351C2645DA00E505AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C672ED341C2645DA00E505AA /* DonateTheDistance.app */,
+				C672ED481C2645DB00E505AA /* DonateTheDistanceTests.xctest */,
+				C672ED531C2645DB00E505AA /* DonateTheDistanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C672ED361C2645DA00E505AA /* DonateTheDistance */ = {
+			isa = PBXGroup;
+			children = (
+				C672ED371C2645DB00E505AA /* AppDelegate.swift */,
+				C672ED3E1C2645DB00E505AA /* Assets.xcassets */,
+				6703050C1CCA5E2F00F0D356 /* Main.storyboard */,
+				C672ED401C2645DB00E505AA /* LaunchScreen.storyboard */,
+				C672ED431C2645DB00E505AA /* Info.plist */,
+				674DB2FF1C601BE8007A9982 /* RegistrationViewController.swift */,
+				C672ED651C2647DB00E505AA /* CharitySelectionViewController.swift */,
+				C672ED671C28A10100E505AA /* CharityTableViewCell.swift */,
+				C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */,
+				674DB2F51C5C0270007A9982 /* CharityDetailViewController.swift */,
+				674DB2F71C5FDC16007A9982 /* WorkoutViewController.swift */,
+				674DB2FD1C5FDD03007A9982 /* SponsorViewController.swift */,
+				674DB2FB1C5FDCD6007A9982 /* WorkoutResultsViewController.swift */,
+				674DB2F91C5FDCAD007A9982 /* ProfilePageViewController.swift */,
+				670305081CC7ED7500F0D356 /* ProfileTableViewCell.swift */,
+				67652FC31CB5FDF6000274CA /* MulticolorPolylineSegment.swift */,
+				674DB3011C627D83007A9982 /* UserData.swift */,
+				670305141CCBD69B00F0D356 /* DonationData.swift */,
+				670305161CCBF9E700F0D356 /* Run.swift */,
+				670305041CC2DB9D00F0D356 /* Charity.swift */,
+				670305061CC42B7800F0D356 /* WorkoutType.swift */,
+				6703050F1CCAF62800F0D356 /* DonateTheDistance.xcdatamodeld */,
+			);
+			path = DonateTheDistance;
+			sourceTree = "<group>";
+		};
+		C672ED4B1C2645DB00E505AA /* DonateTheDistanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C672ED4C1C2645DB00E505AA /* DonateTheDistanceTests.swift */,
+				C672ED4E1C2645DB00E505AA /* Info.plist */,
+			);
+			path = DonateTheDistanceTests;
+			sourceTree = "<group>";
+		};
+		C672ED561C2645DB00E505AA /* DonateTheDistanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C672ED571C2645DB00E505AA /* DonateTheDistanceUITests.swift */,
+				C672ED591C2645DC00E505AA /* Info.plist */,
+			);
+			path = DonateTheDistanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C672ED331C2645DA00E505AA /* DonateTheDistance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C672ED5C1C2645DC00E505AA /* Build configuration list for PBXNativeTarget "DonateTheDistance" */;
+			buildPhases = (
+				C672ED301C2645DA00E505AA /* Sources */,
+				C672ED311C2645DA00E505AA /* Frameworks */,
+				C672ED321C2645DA00E505AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonateTheDistance;
+			productName = DonateTheDistance;
+			productReference = C672ED341C2645DA00E505AA /* DonateTheDistance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C672ED471C2645DB00E505AA /* DonateTheDistanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C672ED5F1C2645DC00E505AA /* Build configuration list for PBXNativeTarget "DonateTheDistanceTests" */;
+			buildPhases = (
+				C672ED441C2645DB00E505AA /* Sources */,
+				C672ED451C2645DB00E505AA /* Frameworks */,
+				C672ED461C2645DB00E505AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C672ED4A1C2645DB00E505AA /* PBXTargetDependency */,
+			);
+			name = DonateTheDistanceTests;
+			productName = DonateTheDistanceTests;
+			productReference = C672ED481C2645DB00E505AA /* DonateTheDistanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C672ED521C2645DB00E505AA /* DonateTheDistanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C672ED621C2645DC00E505AA /* Build configuration list for PBXNativeTarget "DonateTheDistanceUITests" */;
+			buildPhases = (
+				C672ED4F1C2645DB00E505AA /* Sources */,
+				C672ED501C2645DB00E505AA /* Frameworks */,
+				C672ED511C2645DB00E505AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C672ED551C2645DB00E505AA /* PBXTargetDependency */,
+			);
+			name = DonateTheDistanceUITests;
+			productName = DonateTheDistanceUITests;
+			productReference = C672ED531C2645DB00E505AA /* DonateTheDistanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C672ED2C1C2645DA00E505AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brooke Haile-Mariam";
+				TargetAttributes = {
+					C672ED331C2645DA00E505AA = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					C672ED471C2645DB00E505AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C672ED331C2645DA00E505AA;
+					};
+					C672ED521C2645DB00E505AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C672ED331C2645DA00E505AA;
+					};
+				};
+			};
+			buildConfigurationList = C672ED2F1C2645DA00E505AA /* Build configuration list for PBXProject "DonateTheDistance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C672ED2B1C2645DA00E505AA;
+			productRefGroup = C672ED351C2645DA00E505AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C672ED331C2645DA00E505AA /* DonateTheDistance */,
+				C672ED471C2645DB00E505AA /* DonateTheDistanceTests */,
+				C672ED521C2645DB00E505AA /* DonateTheDistanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C672ED321C2645DA00E505AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C672ED421C2645DB00E505AA /* LaunchScreen.storyboard in Resources */,
+				C672ED3F1C2645DB00E505AA /* Assets.xcassets in Resources */,
+				6703050E1CCA5E2F00F0D356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C672ED461C2645DB00E505AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C672ED511C2645DB00E505AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C672ED301C2645DA00E505AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674DB2F81C5FDC16007A9982 /* WorkoutViewController.swift in Sources */,
+				670305171CCBF9E700F0D356 /* Run.swift in Sources */,
+				C672ED661C2647DB00E505AA /* CharitySelectionViewController.swift in Sources */,
+				67652FC41CB5FDF6000274CA /* MulticolorPolylineSegment.swift in Sources */,
+				674DB2F61C5C0270007A9982 /* CharityDetailViewController.swift in Sources */,
+				C672ED381C2645DB00E505AA /* AppDelegate.swift in Sources */,
+				674DB3001C601BE8007A9982 /* RegistrationViewController.swift in Sources */,
+				674DB3021C627D84007A9982 /* UserData.swift in Sources */,
+				670305151CCBD69B00F0D356 /* DonationData.swift in Sources */,
+				C672ED6A1C28CDD000E505AA /* ActivitySelectionViewController.swift in Sources */,
+				670305091CC7ED7500F0D356 /* ProfileTableViewCell.swift in Sources */,
+				674DB2FC1C5FDCD6007A9982 /* WorkoutResultsViewController.swift in Sources */,
+				670305051CC2DB9D00F0D356 /* Charity.swift in Sources */,
+				670305121CCAF62800F0D356 /* DonateTheDistance.xcdatamodeld in Sources */,
+				674DB2FE1C5FDD03007A9982 /* SponsorViewController.swift in Sources */,
+				674DB2FA1C5FDCAD007A9982 /* ProfilePageViewController.swift in Sources */,
+				670305071CC42B7800F0D356 /* WorkoutType.swift in Sources */,
+				C672ED681C28A10100E505AA /* CharityTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C672ED441C2645DB00E505AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C672ED4D1C2645DB00E505AA /* DonateTheDistanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C672ED4F1C2645DB00E505AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C672ED581C2645DB00E505AA /* DonateTheDistanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C672ED4A1C2645DB00E505AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C672ED331C2645DA00E505AA /* DonateTheDistance */;
+			targetProxy = C672ED491C2645DB00E505AA /* PBXContainerItemProxy */;
+		};
+		C672ED551C2645DB00E505AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C672ED331C2645DA00E505AA /* DonateTheDistance */;
+			targetProxy = C672ED541C2645DB00E505AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6703050C1CCA5E2F00F0D356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6703050D1CCA5E2F00F0D356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C672ED401C2645DB00E505AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C672ED411C2645DB00E505AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C672ED5A1C2645DC00E505AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C672ED5B1C2645DC00E505AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C672ED5D1C2645DC00E505AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DonateTheDistance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.DonateTheDistance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C672ED5E1C2645DC00E505AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DonateTheDistance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.DonateTheDistance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C672ED601C2645DC00E505AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DonateTheDistanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.DonateTheDistanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonateTheDistance.app/DonateTheDistance";
+			};
+			name = Debug;
+		};
+		C672ED611C2645DC00E505AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DonateTheDistanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.DonateTheDistanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonateTheDistance.app/DonateTheDistance";
+			};
+			name = Release;
+		};
+		C672ED631C2645DC00E505AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DonateTheDistanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.DonateTheDistanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DonateTheDistance;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C672ED641C2645DC00E505AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DonateTheDistanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Capstone.DonateTheDistanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DonateTheDistance;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C672ED2F1C2645DA00E505AA /* Build configuration list for PBXProject "DonateTheDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C672ED5A1C2645DC00E505AA /* Debug */,
+				C672ED5B1C2645DC00E505AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C672ED5C1C2645DC00E505AA /* Build configuration list for PBXNativeTarget "DonateTheDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C672ED5D1C2645DC00E505AA /* Debug */,
+				C672ED5E1C2645DC00E505AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C672ED5F1C2645DC00E505AA /* Build configuration list for PBXNativeTarget "DonateTheDistanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C672ED601C2645DC00E505AA /* Debug */,
+				C672ED611C2645DC00E505AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C672ED621C2645DC00E505AA /* Build configuration list for PBXNativeTarget "DonateTheDistanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C672ED631C2645DC00E505AA /* Debug */,
+				C672ED641C2645DC00E505AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6703050F1CCAF62800F0D356 /* DonateTheDistance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				670305131CCAF74A00F0D356 /* DonateTheDistance 2.xcdatamodel */,
+				670305101CCAF62800F0D356 /* DonateTheDistance.xcdatamodel */,
+				670305111CCAF62800F0D356 /* MoonRunner.xcdatamodel */,
+			);
+			currentVersion = 670305101CCAF62800F0D356 /* DonateTheDistance.xcdatamodel */;
+			path = DonateTheDistance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C672ED2C1C2645DA00E505AA /* Project object */;
+}
