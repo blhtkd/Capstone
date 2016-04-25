@@ -31,6 +31,7 @@
 		C672ED681C28A10100E505AA /* CharityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED671C28A10100E505AA /* CharityTableViewCell.swift */; };
 		C672ED6A1C28CDD000E505AA /* ActivitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */; };
 		DA8ED9BC1CCDF65E00F96455 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ED9BB1CCDF65E00F96455 /* Walk.swift */; };
+		DA8ED9BE1CCE0F7900F96455 /* WalkResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ED9BD1CCE0F7900F96455 /* WalkResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		C672ED671C28A10100E505AA /* CharityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharityTableViewCell.swift; sourceTree = "<group>"; };
 		C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitySelectionViewController.swift; sourceTree = "<group>"; };
 		DA8ED9BB1CCDF65E00F96455 /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
+		DA8ED9BD1CCE0F7900F96455 /* WalkResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */,
 				674DB2F51C5C0270007A9982 /* CharityDetailViewController.swift */,
 				674DB2F71C5FDC16007A9982 /* WorkoutViewController.swift */,
+				DA8ED9BD1CCE0F7900F96455 /* WalkResults.swift */,
 				DA8ED9BB1CCDF65E00F96455 /* Walk.swift */,
 				674DB2FD1C5FDD03007A9982 /* SponsorViewController.swift */,
 				674DB2FB1C5FDCD6007A9982 /* WorkoutResultsViewController.swift */,
@@ -323,6 +326,7 @@
 				C672ED381C2645DB00E505AA /* AppDelegate.swift in Sources */,
 				674DB3001C601BE8007A9982 /* RegistrationViewController.swift in Sources */,
 				674DB3021C627D84007A9982 /* UserData.swift in Sources */,
+				DA8ED9BE1CCE0F7900F96455 /* WalkResults.swift in Sources */,
 				670305151CCBD69B00F0D356 /* DonationData.swift in Sources */,
 				C672ED6A1C28CDD000E505AA /* ActivitySelectionViewController.swift in Sources */,
 				670305091CC7ED7500F0D356 /* ProfileTableViewCell.swift in Sources */,

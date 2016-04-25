@@ -23,12 +23,12 @@ class Walk: UIViewController {
     var caloriesBurnedPerMile:Double = 0.0
     var donationAmount:Double = 0
     var distanceTraveled:Double = 0.0
-    var numSteps: NSNumber = 500
+    var numSteps: NSNumber = 0
     var moneyString: String = ""
     var distanceString: String = ""
     var caloriesString: String = ""
     var stepString: String = ""
-    var stepsDouble: Double = 0.0
+    var stepsDouble: Double = 500.0
     var stop: Bool = false
     
     let pedometer = CMPedometer()
@@ -52,32 +52,34 @@ class Walk: UIViewController {
         }
             
         }
-        if(stop == true){
-        stepsDouble = Double(stepString)!
+        print(stop)
+        if(stop == false){
+        stepsDouble = Double(stepString)!}
         distanceTraveled = (stepsDouble * step)/63360
         donationAmount = 0.25 * distanceTraveled
         caloriesBurned = caloriesBurnedPerMile * distanceTraveled
-        moneyString = String(format: "%f", donationAmount)
+        moneyString = String(format: "%.2f", donationAmount)
         money.text = moneyString
-        distanceString = String(format: "%f", distanceTraveled)
+        distanceString = String(format: "%.2f", distanceTraveled)
         distance.text = distanceString
-        caloriesString = String(format: "%f", caloriesBurned)
-        calories.text = caloriesString}
+        caloriesString = String(format: "%.2f", caloriesBurned)
+        calories.text = caloriesString
         
         
        // distanceTraveled = numSteps * step
     }
         
-    @IBAction func stopWorkout(sender: AnyObject) {
+    /*@IBAction func stopWorkout(sender: AnyObject) {
+        if(stop == false){
         self.pedometer.stopPedometerUpdates()
         //run = Run(distance: (distance*0.00062137), Duration: steps, calories: calories, donationAmount: donationAmount)
-        if(stop == true){
+        
         let run : Run = Run(distance: distanceTraveled, duration: stepsDouble, calories: caloriesBurned, donationAmount: donationAmount)
         //archiver.add(run)
             archiver.saveWorkout(run)}
         print("it sent stuff")
         
-    }
+    }*/
         func loadUser() -> UserData? {
             return NSKeyedUnarchiver.unarchiveObjectWithFile(UserData.ArchiveURL.path!) as? UserData
         }
