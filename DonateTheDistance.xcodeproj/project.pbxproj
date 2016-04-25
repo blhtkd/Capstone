@@ -30,6 +30,7 @@
 		C672ED661C2647DB00E505AA /* CharitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED651C2647DB00E505AA /* CharitySelectionViewController.swift */; };
 		C672ED681C28A10100E505AA /* CharityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED671C28A10100E505AA /* CharityTableViewCell.swift */; };
 		C672ED6A1C28CDD000E505AA /* ActivitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */; };
+		DA8ED9BC1CCDF65E00F96455 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ED9BB1CCDF65E00F96455 /* Walk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		C672ED651C2647DB00E505AA /* CharitySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharitySelectionViewController.swift; sourceTree = "<group>"; };
 		C672ED671C28A10100E505AA /* CharityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharityTableViewCell.swift; sourceTree = "<group>"; };
 		C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitySelectionViewController.swift; sourceTree = "<group>"; };
+		DA8ED9BB1CCDF65E00F96455 /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				C672ED691C28CDD000E505AA /* ActivitySelectionViewController.swift */,
 				674DB2F51C5C0270007A9982 /* CharityDetailViewController.swift */,
 				674DB2F71C5FDC16007A9982 /* WorkoutViewController.swift */,
+				DA8ED9BB1CCDF65E00F96455 /* Walk.swift */,
 				674DB2FD1C5FDD03007A9982 /* SponsorViewController.swift */,
 				674DB2FB1C5FDCD6007A9982 /* WorkoutResultsViewController.swift */,
 				674DB2F91C5FDCAD007A9982 /* ProfilePageViewController.swift */,
@@ -316,6 +319,7 @@
 				C672ED661C2647DB00E505AA /* CharitySelectionViewController.swift in Sources */,
 				67652FC41CB5FDF6000274CA /* MulticolorPolylineSegment.swift in Sources */,
 				674DB2F61C5C0270007A9982 /* CharityDetailViewController.swift in Sources */,
+				DA8ED9BC1CCDF65E00F96455 /* Walk.swift in Sources */,
 				C672ED381C2645DB00E505AA /* AppDelegate.swift in Sources */,
 				674DB3001C601BE8007A9982 /* RegistrationViewController.swift in Sources */,
 				674DB3021C627D84007A9982 /* UserData.swift in Sources */,
